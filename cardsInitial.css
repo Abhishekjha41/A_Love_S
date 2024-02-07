@@ -1,0 +1,58 @@
+.big-card:nth-child(2){
+    transform: translate(-12%) rotate(-3deg);
+    background-image: url(img4.jpg);
+}
+
+.big-card:nth-child(4){
+    transform: translate(-3%) rotate(-2deg);
+    background-image: url(img9.jpg);
+}
+
+.big-card:nth-child(6){
+    transform: translate(6%, 2%) rotate(2deg);
+    background-image: url(img3.jpg)
+}
+
+.big-card:nth-child(8){
+    transform: translate(13%, 3%) rotate(6deg);
+    background-image: url(img11.jpg);
+    background-size: 100% 100%;
+    border: solid white 2.5px;
+    box-shadow: white 0 0 5px;
+}
+
+
+
+.little-card:nth-child(1){
+    background-image: url(img7.jpg);
+    background-size: 100% 100%;
+}
+
+.little-card:nth-child(3){
+    background-image: url(img4.jpg);
+}
+
+.little-card:nth-child(5){
+    background-image: url(img5.jpg);
+}
+
+.little-card:nth-child(7){
+    background-image: url(img6.png);
+}
+
+.card-group[data-index="1"] > .big-card:nth-child(8){
+    background-image: url(img3.jpg);
+    background-size: 100% 100%;
+}
+
+.card-group[data-index="1"] > .big-card:nth-child(4){
+    background-image: url(img10.jpg);
+}
+
+.card-group[data-index="2"] > .big-card:nth-child(8){
+    background-image: url(img9.jpg);
+}
+
+.card-group[data-index="2"] > .big-card:nth-child(6){
+    background-image: url(img9.jpg);
+}
